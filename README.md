@@ -17,3 +17,13 @@ In addition to profile searching, the application provides features such as adva
 The application is designed to deliver quick and accurate search results through optimized searching and recommendation techniques while operating entirely in a console environment without the use of a database or graphical user interface. By providing an organized and interactive way to discover experienced professionals, Alumni Connect encourages knowledge sharing, mentorship, and stronger alumni–student relationships. The project demonstrates how an efficient console-based application can solve a real-world networking problem while offering a practical platform for career exploration and professional development.
 
 
+Implementation Steps:
+
+For Review2: compile and save the project to Bin.
+Then run:
+java -cp "bin;lib\jline-3.26.3.jar" com.alumniconnect.Main
+
+
+Current Phase Status: 
+Pattern and String matching algorithms implemented, Trie and ahocorasick.(Review 2 Complete)
+
