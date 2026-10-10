@@ -1,29 +1,61 @@
-Project Title: Alumni Connect
+# Alumni Connect
 
-Team Name: Team 19
+## Team Information
 
-RollNo: 2520030072- Param Manasvi, 
-        2520030100-B. Vida Swetha, 
-        2520030509- M.V.L. Samhita
+- **Team Name:** Team 19
+- **2520030072** – Param Manasvi
+- **2520030100** – B. Vida Swetha
+- **2520030509** – M.V.L. Samhita
+- **Supervisor:** Dr. V. Sireesha
 
-Supervisor Name: Dr. V. Sireesha
+## Abstract
 
-Abstract:  
+Alumni Connect is a full-stack application designed to strengthen relationships between students and alumni through professional networking, mentorship, career guidance, and knowledge sharing. It provides a centralized platform for exploring profiles and searching and filtering alumni based on skills, expertise, graduation year, organization, job role, location, and professional interests.
 
-Alumni Connect is a console-based Java application developed to strengthen the connection between students and alumni by providing a centralized platform for    networking, mentorship, career guidance, and professional interaction. The system allows students to explore alumni profiles using various search criteria such as technical skills, areas of expertise, graduation year, organization, job role, higher education, location, and professional interests. Based on the selected criteria, the application identifies suitable alumni and presents their profile details along with contact information such as email address, phone number, LinkedIn profile, or GitHub account, enabling students to connect with them through external communication platforms.
+The application includes advanced profile search, personalized recommendations, connection requests, profile comparison, bookmarks, recently viewed profiles, and search history. It also provides mentor matching to identify suitable alumni based on skill coverage, shared interests, industry relevance, and mentor capacity. Graph-based network analysis helps users discover paths between connected people and understand relationships within the network.
 
-In addition to profile searching, the application provides features such as advanced filtering, profile comparison, personalized alumni recommendations, bookmarking favourite alumni, recently viewed profiles, and search history management. Administrators can efficiently maintain the alumni directory by adding, updating, or removing records, ensuring that the information remains accurate and up to date. The system also generates useful insights, including alumni distribution across companies, industries, graduation batches, and technical domains, helping students better understand career trends and opportunities.
+The project demonstrates the practical application of Data Structures and Algorithms, including Trie, Knuth–Morris–Pratt (KMP), Aho–Corasick, Edit Distance, Longest Common Subsequence (LCS), insertion sort, Dijkstra’s algorithm, Floyd–Warshall, and bipartite matching using an augmenting-path approach.
 
-The application is designed to deliver quick and accurate search results through optimized searching and recommendation techniques while operating entirely in a console environment without the use of a database or graphical user interface. By providing an organized and interactive way to discover experienced professionals, Alumni Connect encourages knowledge sharing, mentorship, and stronger alumni–student relationships. The project demonstrates how an efficient console-based application can solve a real-world networking problem while offering a practical platform for career exploration and professional development.
+The application uses a web-based frontend integrated with a Java backend. Browser local storage retains application data, while frontend–backend synchronization supports graph and networking operations. The application does not require a separate database.
 
+## Objectives
 
-Implementation Steps:
+- Build a centralized platform for student–alumni networking.
+- Provide efficient profile search and filtering.
+- Recommend relevant connections using mutual accepted connections and profile similarity.
+- Find minimum-cost routes between connected users using Dijkstra’s algorithm.
+- Analyze shortest distances between user pairs using Floyd–Warshall.
+- Match students with suitable alumni while respecting mentor capacity.
+- Demonstrate the real-world application of Data Structures and Algorithms.
 
-For Review2: compile and save the project to Bin.
-Then run:
-java -cp "bin;lib\jline-3.26.3.jar" com.alumniconnect.Main
+## Key Features
 
+- Student and alumni profiles
+- Advanced search and filtering
+- Student-to-alumni connection requests
+- People You May Know recommendations
+- Dijkstra-based Best Connection Path
+- Floyd–Warshall Network Analysis
+- Student-to-alumni mentor matching
+- Profile comparison
+- Bookmarks, recently viewed profiles, and search history
+- Alumni directory management
 
-Current Phase Status: 
-Pattern and String matching algorithms implemented, Trie and ahocorasick.(Review 2 Complete)
+## Setup and Execution Instructions
 
+### Prerequisites
+
+- Java Development Kit (JDK) compatible with the project
+- Visual Studio Code or another suitable code editor
+- Windows operating system
+
+### Steps to Run
+
+1. Download or clone the repository.
+2. Extract the project ZIP if downloaded as an archive.
+3. Open the project folder in Visual Studio Code.
+4. Navigate to the `backend` directory.
+5. Run the startup script:
+
+   ```bat
+   run.bat
